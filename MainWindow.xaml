@@ -7,10 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Canvas Background="Black">
-        <RichTextBox Height="249" Width="295" Canvas.Left="450" Canvas.Top="93">
+        <RichTextBox Height="284" Width="263" Canvas.Left="479" Canvas.Top="40" HorizontalAlignment="Center" VerticalAlignment="Top">
             <FlowDocument>
                 <Paragraph>
                     <Run x:Name="rtbDisplay" Text="Hi Everyone"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="btnDisplayText" Content="Display Info" Canvas.Left="532" Canvas.Top="364" HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Click="btnDisplayText_Click"/>
+        <Label Content="Name Of Driver" Canvas.Left="40" Canvas.Top="93" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Address" Canvas.Left="40" Canvas.Top="140" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="Make" Canvas.Left="40" Canvas.Top="191" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="Model" Canvas.Left="40" Canvas.Top="236" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="Year" Canvas.Left="40" Canvas.Top="283" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="What Happened" Canvas.Left="40" Canvas.Top="346" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox Canvas.Left="178" TextWrapping="Wrap" Text="TextBox" Canvas.Top="97" Width="194" Height="22"/>
+        <TextBox Canvas.Left="178" TextWrapping="Wrap" Text="TextBox" Canvas.Top="144" Width="194" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox Canvas.Left="178" TextWrapping="Wrap" Text="TextBox" Canvas.Top="195" Width="194" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox Canvas.Left="178" TextWrapping="Wrap" Text="TextBox" Canvas.Top="240" Width="194" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox Canvas.Left="178" TextWrapping="Wrap" Text="TextBox" Canvas.Top="285" Width="194" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <RichTextBox Height="62" Width="239" Canvas.Left="178" Canvas.Top="346">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>

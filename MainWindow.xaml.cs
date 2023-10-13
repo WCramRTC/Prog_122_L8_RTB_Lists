@@ -23,6 +23,17 @@ namespace Prog_122_L8_RTB_Lists
         public MainWindow()
         {
             InitializeComponent();
-        }
-    }
-}
+        } // MainWindow
+
+        private void btnDisplayText_Click(object sender, RoutedEventArgs e)
+        {
+            string usersAnswer = rtbDisplay.Text;
+
+            MessageBox.Show(usersAnswer);
+
+
+        } // btnDisplayText_Click
+        
+    } // class
+
+} // namespace
