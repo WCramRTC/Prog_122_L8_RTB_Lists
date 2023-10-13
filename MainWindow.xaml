@@ -10,7 +10,7 @@
         <RichTextBox Height="284" Width="263" Canvas.Left="479" Canvas.Top="40" HorizontalAlignment="Center" VerticalAlignment="Top">
             <FlowDocument>
                 <Paragraph>
-                    <Run x:Name="rtbDisplay" Text="Hi Everyone"/>
+                    <Run x:Name="rtbDisplay" />
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
@@ -21,15 +21,15 @@
         <Label Content="Model" Canvas.Left="40" Canvas.Top="236" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <Label Content="Year" Canvas.Left="40" Canvas.Top="283" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <Label Content="What Happened" Canvas.Left="40" Canvas.Top="346" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBox Canvas.Left="178" TextWrapping="Wrap" Text="TextBox" Canvas.Top="97" Width="194" Height="22"/>
-        <TextBox Canvas.Left="178" TextWrapping="Wrap" Text="TextBox" Canvas.Top="144" Width="194" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBox Canvas.Left="178" TextWrapping="Wrap" Text="TextBox" Canvas.Top="195" Width="194" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBox Canvas.Left="178" TextWrapping="Wrap" Text="TextBox" Canvas.Top="240" Width="194" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBox Canvas.Left="178" TextWrapping="Wrap" Text="TextBox" Canvas.Top="285" Width="194" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <RichTextBox Height="62" Width="239" Canvas.Left="178" Canvas.Top="346">
+        <TextBox x:Name="txtDriverName" Canvas.Left="149" TextWrapping="Wrap" Canvas.Top="93" Width="302" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAddress" Canvas.Left="149" TextWrapping="Wrap" Canvas.Top="142" Width="302" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMake" Canvas.Left="149" TextWrapping="Wrap" Canvas.Top="195" Width="302" Height="22" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtModel" Canvas.Left="149" TextWrapping="Wrap" Canvas.Top="238" Width="302" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtYear" Canvas.Left="149" TextWrapping="Wrap" Canvas.Top="285" Width="302" Height="22" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <RichTextBox Height="75" Width="239" Canvas.Left="178" Canvas.Top="333" HorizontalAlignment="Center" VerticalAlignment="Top">
             <FlowDocument>
                 <Paragraph>
-                    <Run Text="RichTextBox"/>
+                    <Run x:Name="rtbAccidentInfo" />
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
